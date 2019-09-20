@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>resize image</title>
+	<script language="javascript">
+	function resizeImage () {
+		var image = document.getElementById('img1');
+		image.style.width = "300px";
+		image.style.height = "300px";
+	}
+	function resetImage (){
+		var image = document.getElementById('img1');
+		image.style.width = "200px";
+		image.style.height = "200px";
+	}
+	</script>
+</head>
+<body>
+		 <img src = "img/red.jpg" id="img1" width="200"/><br/> 
+		 <h1></h1>          
+		 <button onclick="resizeImage()">Resize</button>
+		<button onclick="resetImage()">Reset</button>	
+</body>
+</html>
